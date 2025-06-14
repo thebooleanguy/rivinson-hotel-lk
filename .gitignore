@@ -1,23 +1,43 @@
-node_modules
+# Node
+node_modules/
 
-# Output
-.output
-.vercel
-.netlify
-.wrangler
-/.svelte-kit
-/build
+# SvelteKit + build output
+.svelte-kit/
+build/
+.output/
+.vercel/
+.netlify/
+.wrangler/
 
-# OS
+# Firebase & cloud secrets
+.firebase/
+firebase.js
+firebase-debug.log
+firebase.json
+firestore.indexes.json
+firestore.rules
+storage.rules
+
+# OS-specific junk
 .DS_Store
 Thumbs.db
 
-# Env
+# Env variables
 .env
 .env.*
 !.env.example
 !.env.test
 
-# Vite
+# Vite cache
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# VS Code & IDEs
+.vscode/
+.idea/
+
+# Logs & lockfiles
+*.log
+yarn.lock
+pnpm-lock.yaml
+
