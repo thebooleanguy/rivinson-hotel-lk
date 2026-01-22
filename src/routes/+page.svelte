@@ -47,3 +47,25 @@
 	</div>
 </section>
 
+<style>
+	.embla {
+		overflow: hidden;
+		height: 70vh;
+	}
+
+	.embla__container {
+		display: flex;
+		height: 100%;
+	}
+
+	.embla__slide {
+		flex: 0 0 100%;
+		min-width: 0;
+	}
+
+	.embla__slide img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+</style>
